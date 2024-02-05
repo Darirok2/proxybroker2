@@ -12,10 +12,10 @@ with codecs.open('README.md', mode='r', encoding='utf-8') as f:
     INFO['long_description'] = f.read()
 
 REQUIRES = [
-    'aiohttp>=3.5.4',
-    'aiodns>=2.0.0',
+    'aiohttp==3.5.4',
+    'aiodns==2.0.0',
     'attrs==19.3.0',
-    'maxminddb>=1.4.1',
+    'maxminddb==1.4.1',
     'cachetools==4.1.0',
 ]
 SETUP_REQUIRES = ['pytest-runner>=4.4']
